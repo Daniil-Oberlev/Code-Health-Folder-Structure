@@ -6,6 +6,7 @@
 .gitkeep       export-ignore
 
 *.md       text diff=markdown
+*.md linguist-detectable=true
 
 *.sh       text eol=lf
 
