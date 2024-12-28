@@ -1,17 +1,25 @@
 # Auto detect text files and perform LF normalization
-*          text=auto
+*          			text=auto
 
-.gitattributes export-ignore
-.gitignore     export-ignore
-.gitkeep       export-ignore
+.gitattributes 	export-ignore
+.gitignore     	export-ignore
+.gitkeep       	export-ignore
 
-*.md       text diff=markdown
-*.md linguist-detectable=true
-
-*.sh       text eol=lf
+*.md       			text diff=markdown
+*.sh       			text eol=lf
 
 # Serialisation
-*.json     text
-*.toml     text
-*.yaml     text
-*.yml      text
+*.json     			text
+*.toml     			text
+*.yaml     			text
+*.yml      			text
+
+# ignore
+
+# linguist
+
+*.md 						linguist-detectable=true
+
+*.gitattributes linguist-language=gitattributes
+*.gitattributes linguist-detectable=true
+*.gitattributes linguist-documentation=false
